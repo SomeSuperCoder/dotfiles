@@ -51,7 +51,7 @@
     "wireplumber": {
         "format": "{icon} {volume}%",
         "format-muted": "󰝟 ",
-        "on-click": "pavucontrol",
+        "on-click": "GTK_THEME=Adwaita-dark pavucontrol",
         "format-icons": ["", "", "", "", ""]
     },
 
