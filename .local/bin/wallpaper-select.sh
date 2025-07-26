@@ -25,7 +25,7 @@ function set_wallpaper() {
     # or
     # swaybg -i "$wallpaper" (for Wayland)
     swww img "$chosen" --transition-type center
-    mv "$chosen" ~/.config/background
+    cp "$chosen" ~/.config/background
 }
 
 # Main function
