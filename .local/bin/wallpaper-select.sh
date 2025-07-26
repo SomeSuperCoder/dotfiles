@@ -42,7 +42,7 @@ function main() {
     # If a wallpaper was chosen
     if [ -n "$chosen" ]; then
         set_wallpaper "$chosen"
-        notify-send "Wallpaper Changed" "Selected: $(basename "$chosen")"
+        # notify-send "Wallpaper Changed" "Selected: $(basename "$chosen")"
     fi
 }
 
